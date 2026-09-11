@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 项目产出（不提交具体综述项目的中间文件）
+literature-review/
+literature-review-sci/
+reading_notes/
+manuscript/
+figures/
+polished/
+*.ris
+
+# 凭证（务必不要提交）
+.env
+zotero_credentials.json
+*_api_key*
+credentials*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 临时文件
+nul
+*.tmp
+*.log

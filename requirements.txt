@@ -1,0 +1,18 @@
+# 文献综述 Pipeline 核心依赖
+# 安装: pip install -r requirements.txt
+
+# --- 必需 ---
+requests>=2.31.0        # HTTP 请求：PubMed E-utilities / CrossRef / Unpaywall / Zotero Web API
+pandas>=2.0.0           # 文献库 CSV 处理
+
+# --- 全文阅读（lr-reading-notes / lr-zotero-import）---
+pymupdf>=1.24.0         # PDF 正文提取
+
+# --- 图表生成（lr-figure-maker）---
+matplotlib>=3.8.0       # 基础绘图
+SciencePlots>=2.1.0     # 期刊级样式：plt.style.use(["science", "nature", "no-latex"])
+great_tables>=0.15.0    # 出版级学术表格（title/spanner/footnote/data_color）
+schemdraw>=0.19         # 程序化绘制信号通路/流程图/机制示意图
+
+# --- 可选增强 ---
+numpy>=1.26.0           # 数值计算（matplotlib 依赖，显式声明）
