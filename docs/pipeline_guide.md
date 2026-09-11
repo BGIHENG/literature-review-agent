@@ -21,6 +21,8 @@ lr-benchmark        lr-pubmed-search                      writing         lr-jou
 
 **目的**：在任何检索开始前，敲定 5 个必须拍板的决定。
 
+![项目参数如何驱动 Pipeline](images/param-flow.svg)
+
 | # | 决定 | 说明 |
 |---|------|------|
 | 1 | 癌种 / 研究对象范围 | 聚焦特定癌种，还是不限癌种？方法学文献是否跨癌种？ |
